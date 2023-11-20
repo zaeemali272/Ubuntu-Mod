@@ -12,7 +12,7 @@ This is my ubuntu customization, includes the initial process, very useful tools
 # INSTALLATION
 **You can either auto-install the whole setup or or install manually according to your preference**
 
-## UPDATE & UPGRADE
+## Updating & Upgrading Ubuntu
 ```
 #First Update & Upgrade Ubuntu
 sudo apt update && sudo apt upgrade -y
