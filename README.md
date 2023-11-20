@@ -8,6 +8,17 @@ This is my ubuntu customization, includes the initial process, very useful tools
 
 </div>
 <!-- MANPAGE: END EXCLUDED SECTION -->
+<!-- MANPAGE: BEGIN NAVIGATION SECTION -->
+* [INSTALLATION](#installation)
+    * [Updating & Upgrading Ubuntu](#Updating & Upgrading Ubuntu)
+    * [Installing nala to replace apt](#Installing nala to replace apt)
+    * [Installing flatpak and useful apps](#Installing flatpak and useful apps)
+    * [Installing Gnome Tweaks and Extension Manager](#Installing Gnome Tweaks and Extension Manager)
+    * [Extra tools](#Extra tools)
+    * [Setting up spicetify](#Setting up spicetify)
+    * [Installing thorium browser( Chromium Fork )](#Installing thorium browser( Chromium Fork ))
+    * [Installing Mercury browser( Firefox Fork )](#Installing Mercury browser( Firefox Fork ))
+<!-- MANPAGE: END NAVIGATION SECTION -->
 
 # INSTALLATION
 **You can either auto-install the whole setup or or install manually according to your preference**
