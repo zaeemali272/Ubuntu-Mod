@@ -60,7 +60,7 @@ sudo nala install gnome-shell-extension-manager -y
 ```
 
 ### Installing Gnome Extenions
-![Extension-manager](https://github.com/zaeemali272/Ubuntu-Mod/blob/main/imgs/extension-manager.png)
+[![Ubuntu-Mod](https://github.com/zaeemali272/Ubuntu-Mod/blob/main/imgs/extension-manager.png)](#readme)
 **Open the Extension Manager and from the browse tab search and install the following extenxions**:
 
 `Blur My Shell` / `Burn My Window`  / `Just Perfection` / `Hide Top Bar` / `Caffeine` / `User Themes` / `Mpris Label` / `Clipboard Indicator` / `Fullscreen Notifications` / `Dash To Dock` / `Aylur's Widgets` / `Gnome 4x Improvements` / `Impatience` / `Net Speed Simplified` / `Removable Drive Menu` / `Simple System Monitor` / `Todo.txt` / `Unite`
@@ -81,7 +81,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-
 ```
 
 ## Setting Up Spicetify
-![Spicetify](https://github.com/zaeemali272/Ubuntu-Mod/blob/main/imgs/spicetify.png)
+[![Ubuntu-Mod](https://github.com/zaeemali272/Ubuntu-Mod/blob/main/imgs/spicetify.png)](#readme)
 **Spicetify is a multiplatform command-line tool to customize the official Spotify client**
 
 ### Installation
