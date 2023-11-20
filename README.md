@@ -12,7 +12,7 @@ This is my ubuntu customization, includes the initial process, very useful tools
 # INSTALLATION
 **You can either auto-install the whole setup or or install manually according to your preference**
 
-##UPDATE & UPGRADE
+## UPDATE & UPGRADE
 ```
 #First Update & Upgrade Ubuntu
 sudo apt update && sudo apt upgrade -y
@@ -28,7 +28,7 @@ sudo nala update && sudo nala upgrade -y
 
 **Important**: If warning appear while upgrading then remove those repositories from  `Software & Updates -> Other Software -> Remove repos` and repeat previous step
 
-##Installing flatpak and useful apps
+## Installing flatpak and useful apps
 **Note**: Remove link to any app you dont want
 ```
 sudo nala install flatpak -y
