@@ -1,5 +1,5 @@
 <!-- MANPAGE: BEGIN EXCLUDED SECTION -->
-#Ubuntu Mod
+# Ubuntu Mod
 This is my ubuntu customization, includes the initial process, very useful tools and everyday use apps. plus the gnome-extensions i use to make the interface look amazing and alot more
 <div align="center">
 
@@ -9,7 +9,7 @@ This is my ubuntu customization, includes the initial process, very useful tools
 </div>
 <!-- MANPAGE: END EXCLUDED SECTION -->
 
-#INSTALLATION
+# INSTALLATION
 **You can either auto-install the whole setup or or install manually according to your preference**
 
 ##UPDATE & UPGRADE
@@ -19,7 +19,7 @@ sudo apt update && sudo apt upgrade -y
 
 ```
 
-##Installing nala to replace apt
+## Installing nala to replace apt
 ```
 sudo apt install nala -y
 sudo nala fetch
@@ -40,36 +40,36 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 flatpak install flathub -y tv.kodi.Kodi com.spotify.Client com.discordapp.Discord org.qbittorrent.qBittorrent org.videolan.VLC com.github.IsmaelMartinez.teams_for_linux
 ```
 
-##Installing Gnome Tweaks and Extension Manager
+## Installing Gnome Tweaks and Extension Manager
 ```
 sudo nala install gnome-tweaks -y
 sudo nala install gnome-shell-extension-manager -y
 ```
 
-###Installing Gnome Extenions
+### Installing Gnome Extenions
 **Open the Extension Manager and from the browse tab search and install the following extenxions**:
 
 `Blur My Shell` / `Burn My Window`  / `Just Perfection` / `Hide Top Bar` / `Caffeine` / `User Themes` / `Mpris Label` / `Clipboard Indicator` / `Fullscreen Notifications` / `Dash To Dock` / `Aylur's Widgets` / `Gnome 4x Improvements` / `Impatience` / `Net Speed Simplified` / `Removable Drive Menu` / `Simple System Monitor` / `Todo.txt` / `Unite`
 
-##Extra tools
+## Extra tools
 ```
 sudo nala install stacer curl git -y
 ```
 
-###Enabling restricted codecs
+### Enabling restricted codecs
 ```
 sudo apt install ubuntu-restricted-extras -y
 ```
 
-###Enabling minimizing and maximing from dock
+### Enabling minimizing and maximing from dock
 ```
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
 ```
 
-##Setting up spicetify
+## Setting up spicetify
 **Spicetify is a multiplatform command-line tool to customize the official Spotify client**
 
-###Installation
+### Installation
 ```
 curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
 flatpak run com.spotify.Client
@@ -94,14 +94,14 @@ sudo chmod a+wr -R /var/lib/flatpak/app/com.spotify.Client/x86_64/stable/active/
 spicetify backup apply
 ```
 
-###Customization
+### Customization
 **Open Spotify and go to Marketplace -> Extensions and install these extensions**
 `Adblocker` / `Autoplay`
 
 **Then Go to the Themes and install Galaxy or try any other**
 
 
-##Installing thorium browser( Chromium Fork )
+## Installing thorium browser( Chromium Fork )
 ```
 wget https://dl.thorium.rocks/debian/dists/stable/thorium.list
 sudo mv thorium.list /etc/apt/sources.list.d/
@@ -109,7 +109,7 @@ sudo apt update
 sudo apt install thorium-browser
 ```
 
-##Installing Mercury browser( Firefox Fork )
+## Installing Mercury browser( Firefox Fork )
 **Download the Deb file for [Mercury Browser](https://github.com/Alex313031/Mercury/releases/download/v.115.4.0/mercury-browser_115.4.0_amd64.deb)
 
 
@@ -119,7 +119,7 @@ cd Downloads
 sudo nala install mercury-browser_115.4.0_amd64.deb
 ```
 
-###Useful Browser Extensions
+### Useful Browser Extensions
 **Open the Mercury Browser and install these useful extensions**:
 
 `Ublock Origin` / `Bonjour` / `Auto Discard Tab` / `h264ify-embed-fix` / `'Improve YouTube!' 🎧 (for YouTube & Videos)`
