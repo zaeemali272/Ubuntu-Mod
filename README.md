@@ -9,30 +9,30 @@ This is my ubuntu customization, includes the initial process, very useful tools
 <!-- MANPAGE: END EXCLUDED SECTION -->
 
 <!-- MANPAGE: BEGIN EXCLUDED SECTION -->
-* [Ubuntu Mod](#ubuntu-mod)
+* [UBUNTU MOD](#ubuntu-mod)
 * [INSTALLATION](#installation)
-    * [Updating & Upgrading Ubuntu](#updating--upgrading-ubuntu)
-    * [Installing nala to replace apt](#installing-nala-to-replace-apt)
-    * [Installing flatpak and useful apps](#installing-flatpak-and-useful-apps)
-    * [Installing Gnome Tweaks and Extension Manager](#installing-gnome-tweaks-and-extension-manager)
-    * [Extra tools](#extra-tools)
-    * [Setting up spicetify](#setting-up-spicetify)
-    * [Installing thorium browser( Chromium Fork )](#installing-thorium-browser-chromium-fork-)
-    * [Installing Mercury browser( Firefox Fork )](#installing-mercury-browser-firefox-fork-)
+    * [Updating And Upgrading Ubuntu](#updating-and-upgrading-ubuntu)
+    * [Installing Nala To Replace Apt](#installing-nala-to-replace-apt)
+    * [Installing Flatpak And Useful Apps](#installing-flatpak-and-useful-apps)
+    * [Installing Gnome Tweaks And Extension Manager](#installing-gnome-tweaks-and-extension-manager)
+    * [Extra Tools](#extra-tools)
+    * [Setting Up Spicetify](#setting-up-spicetify)
+    * [Installing Thorium Browser( Chromium Fork )](#installing-thorium-browser-chromium-fork-)
+    * [Installing Mercury Browser( Firefox Fork )](#installing-mercury-browser-firefox-fork-)
 
 <!-- MANPAGE: END EXCLUDED SECTION -->
 
 # INSTALLATION
 **You can either auto-install the whole setup or or install manually according to your preference**
 
-## Updating & Upgrading Ubuntu
+## Updating And Upgrading Ubuntu
 ```
 #First Update & Upgrade Ubuntu
 sudo apt update && sudo apt upgrade -y
 
 ```
 
-## Installing nala to replace apt
+## Installing Nala To Replace Apt
 ```
 sudo apt install nala -y
 sudo nala fetch
@@ -41,7 +41,7 @@ sudo nala update && sudo nala upgrade -y
 
 **Important**: If warning appear while upgrading then remove those repositories from  `Software & Updates -> Other Software -> Remove repos` and repeat previous step
 
-## Installing flatpak and useful apps
+## Installing Flatpak And Useful Apps
 **Note**: Remove link to any app you dont want
 ```
 sudo nala install flatpak -y
@@ -53,7 +53,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 flatpak install flathub -y tv.kodi.Kodi com.spotify.Client com.discordapp.Discord org.qbittorrent.qBittorrent org.videolan.VLC com.github.IsmaelMartinez.teams_for_linux
 ```
 
-## Installing Gnome Tweaks and Extension Manager
+## Installing Gnome Tweaks And Extension Manager
 ```
 sudo nala install gnome-tweaks -y
 sudo nala install gnome-shell-extension-manager -y
@@ -64,22 +64,22 @@ sudo nala install gnome-shell-extension-manager -y
 
 `Blur My Shell` / `Burn My Window`  / `Just Perfection` / `Hide Top Bar` / `Caffeine` / `User Themes` / `Mpris Label` / `Clipboard Indicator` / `Fullscreen Notifications` / `Dash To Dock` / `Aylur's Widgets` / `Gnome 4x Improvements` / `Impatience` / `Net Speed Simplified` / `Removable Drive Menu` / `Simple System Monitor` / `Todo.txt` / `Unite`
 
-## Extra tools
+## Extra Tools
 ```
 sudo nala install stacer curl git -y
 ```
 
-### Enabling restricted codecs
+### Enabling Restricted Codecs
 ```
 sudo apt install ubuntu-restricted-extras -y
 ```
 
-### Enabling minimizing and maximing from dock
+### Enabling Minimizing And Maximing From Dock
 ```
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
 ```
 
-## Setting up spicetify
+## Setting Up Spicetify
 **Spicetify is a multiplatform command-line tool to customize the official Spotify client**
 
 ### Installation
@@ -114,7 +114,7 @@ spicetify backup apply
 **Then Go to the Themes and install Galaxy or try any other**
 
 
-## Installing thorium browser( Chromium Fork )
+## Installing Thorium Browser( Chromium Fork )
 ```
 wget https://dl.thorium.rocks/debian/dists/stable/thorium.list
 sudo mv thorium.list /etc/apt/sources.list.d/
@@ -122,7 +122,7 @@ sudo apt update
 sudo apt install thorium-browser
 ```
 
-## Installing Mercury browser( Firefox Fork )
+## Installing Mercury Browser( Firefox Fork )
 **Download the Deb file for [Mercury Browser](https://github.com/Alex313031/Mercury/releases/download/v.115.4.0/mercury-browser_115.4.0_amd64.deb)
 
 
