@@ -11,6 +11,11 @@ This is my ubuntu customization, includes the initial process, very useful tools
 <!-- MANPAGE: BEGIN EXCLUDED SECTION -->
 * [Ubuntu Mod](#ubuntu-mod)
 * [INSTALLATION](#installation)
+    * [Updating & Upgrading Ubuntu](#updating--upgrading-ubuntu)
+    * [Installing nala to replace apt](#installing-nala-to-replace-apt)
+    * [Installing flatpak and useful apps](#installing-flatpak-and-useful-apps)
+    * [Installing Gnome Tweaks and Extension Manager](#installing-gnome-tweaks-and-extension-manager)
+
 <!-- MANPAGE: END EXCLUDED SECTION -->
 
 # INSTALLATION
