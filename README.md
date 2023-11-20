@@ -15,6 +15,10 @@ This is my ubuntu customization, includes the initial process, very useful tools
     * [Installing nala to replace apt](#installing-nala-to-replace-apt)
     * [Installing flatpak and useful apps](#installing-flatpak-and-useful-apps)
     * [Installing Gnome Tweaks and Extension Manager](#installing-gnome-tweaks-and-extension-manager)
+    * [Extra tools](#extra-tools)
+    * [Setting up spicetify](#setting-up-spicetify)
+    * [Installing thorium browser( Chromium Fork )](#installing-thorium-browser-chromium-fork-)
+    * [Installing Mercury browser( Firefox Fork )](#installing-mercury-browser-firefox-fork-)
 
 <!-- MANPAGE: END EXCLUDED SECTION -->
 
