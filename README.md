@@ -1,24 +1,23 @@
-<!-- MANPAGE: BEGIN EXCLUDED SECTION -->
+   <!-- MANPAGE: BEGIN EXCLUDED SECTION -->
 # Ubuntu Mod
-This is my ubuntu customization, includes the initial process, very useful tools and everyday use apps. plus the gnome-extensions i use to make the interface look amazing and alot more
 <div align="center">
 
 [![Ubuntu-Mod](https://github.com/zaeemali272/Ubuntu-Mod/blob/main/imgs/main.png)](#readme)
 
-
 </div>
 <!-- MANPAGE: END EXCLUDED SECTION -->
-<!-- MANPAGE: BEGIN NAVIGATION SECTION -->
+This is my ubuntu customization, includes the initial process, very useful tools and everyday use apps. plus the gnome-extensions i use to make the interface look amazing and alot more
+<!-- MANPAGE: BEGIN EXCLUDED SECTION -->
 * [INSTALLATION](#installation)
-    * [Updating & Upgrading Ubuntu](#Updating & Upgrading Ubuntu)
-    * [Installing nala to replace apt](#Installing nala to replace apt)
-    * [Installing flatpak and useful apps](#Installing flatpak and useful apps)
-    * [Installing Gnome Tweaks and Extension Manager](#Installing Gnome Tweaks and Extension Manager)
-    * [Extra tools](#Extra tools)
-    * [Setting up spicetify](#Setting up spicetify)
-    * [Installing thorium browser( Chromium Fork )](#Installing thorium browser( Chromium Fork ))
-    * [Installing Mercury browser( Firefox Fork )](#Installing Mercury browser( Firefox Fork ))
-<!-- MANPAGE: END NAVIGATION SECTION -->
+    * [Updating & Upgrading Ubuntu](#updating--upgrading-ubuntu)
+    * [Installing nala to replace apt](#installing-nala-to-replace-apt)
+    * [Installing flatpak and useful apps](#installing-flatpak-and-useful-apps)
+    * [Installing Gnome Tweaks and Extension Manager](#installing-gnome-tweaks-and-extension-manager)
+    * [Extra tools](#extra-tools)
+    * [Setting up spicetify](#setting-up-spicetify)
+    * [Installing thorium browser( Chromium Fork )](#installing-thorium-browser-chromium-fork-)
+    * [Installing Mercury browser( Firefox Fork )](#installing-mercury-browser-firefox-fork-)
+<!-- MANPAGE: END EXCLUDED SECTION -->
 
 # INSTALLATION
 **You can either auto-install the whole setup or or install manually according to your preference**
