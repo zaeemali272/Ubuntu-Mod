@@ -1,22 +1,16 @@
    <!-- MANPAGE: BEGIN EXCLUDED SECTION -->
 # Ubuntu Mod
+This is my ubuntu customization, includes the initial process, very useful tools and everyday use apps. plus the gnome-extensions i use to make the interface look amazing and alot more
 <div align="center">
 
 [![Ubuntu-Mod](https://github.com/zaeemali272/Ubuntu-Mod/blob/main/imgs/main.png)](#readme)
 
 </div>
 <!-- MANPAGE: END EXCLUDED SECTION -->
-This is my ubuntu customization, includes the initial process, very useful tools and everyday use apps. plus the gnome-extensions i use to make the interface look amazing and alot more
+
 <!-- MANPAGE: BEGIN EXCLUDED SECTION -->
-* [INSTALLATION](https://github.com/zaeemali272/Ubuntu-Mod#installation)
-    * [Updating & Upgrading Ubuntu](#updating--upgrading-ubuntu)
-    * [Installing nala to replace apt](#installing-nala-to-replace-apt)
-    * [Installing flatpak and useful apps](#installing-flatpak-and-useful-apps)
-    * [Installing Gnome Tweaks and Extension Manager](#installing-gnome-tweaks-and-extension-manager)
-    * [Extra tools](#extra-tools)
-    * [Setting up spicetify](#setting-up-spicetify)
-    * [Installing thorium browser( Chromium Fork )](#installing-thorium-browser-chromium-fork-)
-    * [Installing Mercury browser( Firefox Fork )](#installing-mercury-browser-firefox-fork-)
+* [Ubuntu Mod](#ubuntu-mod)
+* [INSTALLATION](#installation)
 <!-- MANPAGE: END EXCLUDED SECTION -->
 
 # INSTALLATION
