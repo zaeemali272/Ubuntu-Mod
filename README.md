@@ -8,7 +8,7 @@
 <!-- MANPAGE: END EXCLUDED SECTION -->
 This is my ubuntu customization, includes the initial process, very useful tools and everyday use apps. plus the gnome-extensions i use to make the interface look amazing and alot more
 <!-- MANPAGE: BEGIN EXCLUDED SECTION -->
-* [INSTALLATION](#installation)
+* [INSTALLATION](https://github.com/zaeemali272/Ubuntu-Mod#installation)
     * [Updating & Upgrading Ubuntu](#updating--upgrading-ubuntu)
     * [Installing nala to replace apt](#installing-nala-to-replace-apt)
     * [Installing flatpak and useful apps](#installing-flatpak-and-useful-apps)
