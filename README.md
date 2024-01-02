@@ -40,7 +40,7 @@ sudo nala fetch
 sudo nala update && sudo nala upgrade -y
 ```
 
-**Important**: If warning appear while upgrading then remove those repositories from  `Software & Updates -> Other Software -> Remove repos causing erro` and repeat previous step
+**Important**: If warning appear while upgrading then remove those repositories from  `Software & Updates -> Other Software -> Remove repos causing error` and repeat previous step
 
 ## Installing Flatpak And Useful Apps
 **Note**: Remove link to any app you dont want
