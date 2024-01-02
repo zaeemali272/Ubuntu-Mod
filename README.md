@@ -19,7 +19,8 @@ This is my ubuntu customization, includes the initial process, very useful tools
     * [Setting Up Spicetify](#setting-up-spicetify)
     * [Installing Thorium Browser( Chromium Fork )](#installing-thorium-browser-chromium-fork-)
     * [Installing Mercury Browser( Firefox Fork )](#installing-mercury-browser-firefox-fork-)
-
+    * [Installing Visual Studio Code](#installing-visual-studio-code)
+* [REMOVING SNAP](#removing-snap)
 <!-- MANPAGE: END EXCLUDED SECTION -->
 
 # INSTALLATION
@@ -39,7 +40,7 @@ sudo nala fetch
 sudo nala update && sudo nala upgrade -y
 ```
 
-**Important**: If warning appear while upgrading then remove those repositories from  `Software & Updates -> Other Software -> Remove repos` and repeat previous step
+**Important**: If warning appear while upgrading then remove those repositories from  `Software & Updates -> Other Software -> Remove repos causing erro` and repeat previous step
 
 ## Installing Flatpak And Useful Apps
 **Note**: Remove link to any app you dont want
@@ -50,7 +51,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 **Important**: Restart your device after installing flatpak or after installing apps, **Flatpak apps will be visible after restart**
 
 ```
-flatpak install flathub -y tv.kodi.Kodi com.spotify.Client com.discordapp.Discord org.qbittorrent.qBittorrent org.videolan.VLC com.github.IsmaelMartinez.teams_for_linux
+flatpak install flathub -y tv.kodi.Kodi com.spotify.Client com.discordapp.Discord org.qbittorrent.qBittorrent org.videolan.VLC com.github.IsmaelMartinez.teams_for_linux com.github.GradienceTeam.Gradience
 ```
 
 ## Installing Gnome Tweaks And Extension Manager
@@ -63,11 +64,11 @@ sudo nala install gnome-shell-extension-manager -y
 [![Installing Gnome Extenions](https://github.com/zaeemali272/Ubuntu-Mod/blob/main/imgs/extension-manager.png)](#readme)
 **Open the Extension Manager and from the browse tab search and install the following extenxions**:
 
-`Blur My Shell` / `Burn My Window`  / `Just Perfection` / `Hide Top Bar` / `Caffeine` / `User Themes` / `Mpris Label` / `Clipboard Indicator` / `Fullscreen Notifications` / `Dash To Dock` / `Aylur's Widgets` / `Gnome 4x Improvements` / `Impatience` / `Net Speed Simplified` / `Removable Drive Menu` / `Simple System Monitor` / `Todo.txt` / `Unite`
+`Blur My Shell` / `Burn My Window`  / `Just Perfection` / `Hide Top Bar` / `Caffeine` / `User Themes` / `Clipboard Indicator` / `Fullscreen Notifications` / `Dash To Dock` / `Aylur's Widgets` / `Gnome 4x Improvements` / `Impatience` / `Net Speed Simplified` / `Removable Drive Menu` / `Simple System Monitor` / `Todo.txt` / `Unite`
 
 ## Extra Tools
 ```
-sudo nala install stacer curl git -y
+sudo nala install stacer curl git neofetch -y
 ```
 
 ### Enabling Restricted Codecs
@@ -134,16 +135,73 @@ cd Downloads
 sudo nala install mercury-browser_115.4.0_amd64.deb
 ```
 
+### Replacing the mercury icon
+To change the icon:
+```
+sudo nano /usr/share/applications/mercury-browser.desktop
+```
+Add the location of the png after Icon=
+```
+/home/zaeem/.icons/firefox-nightly.png
+```
+[![Replacing the mercury icon](https://github.com/zaeemali272/Ubuntu-Mod/blob/main/imgs/iconch.png)](#readme)
+**NOTE**: Just change the zaeem with your username.
+
+
 ### Useful Browser Extensions
 **Open the Mercury Browser and install these useful extensions**:
 
-`Ublock Origin` / `Bonjour` / `Auto Discard Tab` / `h264ify-embed-fix` / `'Improve YouTube!' 🎧 (for YouTube & Videos)`
+`Ublock Origin` / `Bonjour` / `Auto Discard Tab` / `'Improve YouTube!' 🎧 (for YouTube & Videos)`
 
 **IMPORTANT**: Go to mercury settings and under `Performance` disable `Use recommended performance settings` for smoother video( Fix buffer )
 
 **NOTE**: If the video is still laging disable `Use hardware acceleration when available` as well
 
+**NOTE**: To disable menu-bar on alt key in browser(Firefox) than go to `about:config` and set `ui.key.menuAccessKeyFocuses` to `false`
 
+## Installing Visual Studio Code
+```
+sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt install code -y
+```
+
+
+# REMOVING SNAP
+To remove snap completely from ubuntu:
+```
+snap list
+```
+[![REMOVING SNAP](https://github.com/zaeemali272/Ubuntu-Mod/blob/main/imgs/snap-list.png)](#readme)
+
+```
+sudo snap remove --purge firefox
+sudo snap remove --purge snap-store
+sudo snap remove --purge gnome-3-38-2004
+sudo snap remove --purge gnome-42-2204
+sudo snap remove --purge gtk-common-themes
+sudo snap remove --purge snapd-desktop-integration
+sudo snap remove --purge bare
+sudo snap remove --purge core22
+sudo snap remove --purge core20
+sudo snap remove --purge snapd
+```
+After removing all the snap packages:
+```
+sudo apt remove --autoremove snapd
+```
+That’s not all. Even if you removed the snaps using the above command, the sudo apt update command again brings back the snap if you don’t stop the apt trigger. 
+So, to stop that, we need to create an apt preference file in /etc/apt/preferences.d/ and create a new preference file to stop snap. Create a new file called nosnap.pref in /etc/apt/preferences.d/
+```
+sudo nano /etc/apt/preferences.d/nosnap.pref
+```
+And add the following lines, then save the file.
+```
+Package: snapd
+Pin: release a=*
+Pin-Priority: -10
+```
 
 
 
