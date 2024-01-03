@@ -136,7 +136,7 @@ sudo apt install thorium-browser
 ```
 
 ## Installing Mercury Browser( Firefox Fork )
-**Download the Deb file for [Mercury Browser](https://github.com/Alex313031/Mercury/releases/download/v.115.4.0/mercury-browser_115.4.0_amd64.deb)
+**Download the Deb file for [Mercury Browser](https://github.com/Alex313031/Mercury/releases/download/v.115.4.0/mercury-browser_115.4.0_amd64.deb)**
 
 
 **After the download is finished run the following in a new terminal window**:
@@ -177,6 +177,27 @@ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/v
 sudo apt install code -y
 ```
 
+## Installing ProtonVPN
+**Download the Deb file for [Proton VPN](https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.3-2_all.deb)**
+
+**After the download is finished run the following in a new terminal window**:
+```
+cd Downloads
+sudo dpkg --install protonvpn-stable-release_1.0.3-2_all.deb
+sudo apt-get update
+sudo apt-get install proton-vpn-gnome-desktop
+sudo apt install libayatana-appindicator3-1 gir1.2-ayatanaappindicator3-0.1 gnome-shell-extension-appindicator
+```
+
+# Install Tlauncher For Minecraft 
+```
+sudo apt-get install openjdk-8-jre
+sudo apt-get install openjfx
+mv Downloads/TLauncher-2.895/TLauncher-2.895.jar .config/
+java -jar .config/TLauncher-2.895.jar
+
+```
+To get a free 6GB neverending server head over to [Scalacube](https://scalacube.com)
 
 # REMOVING SNAP
 To remove snap completely from ubuntu:
