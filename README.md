@@ -71,6 +71,16 @@ sudo nala install gnome-shell-extension-manager -y
 sudo nala install stacer curl git neofetch -y
 ```
 
+## Installing YT-DLP
+```
+sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+sudo chmod a+rx /usr/local/bin/yt-dlp  # Make executable
+```
+To update, run:
+```
+sudo yt-dlp -U
+```
+
 ### Enabling Restricted Codecs
 ```
 sudo apt install ubuntu-restricted-extras -y
@@ -204,4 +214,7 @@ Pin-Priority: -10
 ```
 
 
-
+**NOTE**: To Disable Logout and Shutdown prompts:
+```
+gsettings set org.gnome.SessionManager logout-prompt false
+```
