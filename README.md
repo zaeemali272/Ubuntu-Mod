@@ -22,6 +22,9 @@ This is my ubuntu customization, includes the initial process, very useful tools
     * [Installing Visual Studio Code](#installing-visual-studio-code)
     * [Installing Proton VPN](#installing-proton-vpn)
     * [Installing Tlauncher For Minecraft](#installing-tlauncher-for-minecraft)
+* [Improving BASH Shell](#improving-bash-shell)
+    * [Synth Shell Installation](#synth-shell-installation)
+    * [Removing Case Sensitivity](#removing-case-sensitivity)
 * [REMOVING SNAP](#removing-snap)
 <!-- MANPAGE: END EXCLUDED SECTION -->
 
@@ -206,6 +209,26 @@ java -jar .config/TLauncher-2.895.jar
 
 ```
 To get a free 6GB neverending server head over to [Scalacube](https://scalacube.com)
+
+
+# Improving BASH Shell
+
+## Synth Shell Installation
+```
+git clone --recursive https://github.com/andresgongora/synth-shell.git
+cd synth-shell
+sudo chmod +x setup.sh
+./setup.sh
+```
+Except for synth-shell greater install everything
+
+## Removing Case Sensitivity
+```
+if [ ! -a ~/.inputrc ]; then echo '$include /etc/inputrc' > ~/.inputrc; fi
+echo 'set completion-ignore-case On' >> ~/.inputrc
+```
+Reopen the terminal to see changes.
+
 
 
 # REMOVING SNAP
