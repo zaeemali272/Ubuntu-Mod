@@ -17,6 +17,7 @@ This is my ubuntu customization, includes the initial process, very useful tools
     * [Installing Gnome Tweaks And Extension Manager](#installing-gnome-tweaks-and-extension-manager)
     * [Extra Tools](#extra-tools)
     * [Setting Up Spicetify](#setting-up-spicetify)
+    * [Setting Up Better Discord](#setting-up-better-discord)
     * [Installing Thorium Browser( Chromium Fork )](#installing-thorium-browser-chromium-fork-)
     * [Installing Mercury Browser( Firefox Fork )](#installing-mercury-browser-firefox-fork-)
     * [Installing Visual Studio Code](#installing-visual-studio-code)
@@ -131,6 +132,29 @@ spicetify backup apply
 
 **Then Go to the Themes and install Galaxy or try any other**
 
+## Setting Up Better Discord
+[![Setting Up Better Discord](https://github.com/zaeemali272/Ubuntu-Mod/blob/main/imgs/betterdiscord.png)](#readme)
+
+### Install betterdiscordctl
+```
+curl -O https://raw.githubusercontent.com/bb010g/betterdiscordctl/master/betterdiscordctl
+chmod +x betterdiscordctl
+sudo mv betterdiscordctl /usr/local/bin
+```
+To update:
+```
+sudo betterdiscordctl self-upgrade
+```
+### Install BetterDiscord
+```
+betterdiscordctl --d-install flatpak install
+```
+### Themes
+**[NotAnotherAnimeTheme](https://betterdiscord.app/Download?id=286)**
+**[ClearVision](https://betterdiscord.app/Download?id=23)**
+**[Cyberpunk 2077](https://betterdiscord.app/Download?id=752)**
+
+**Get more themes and plugins for the [website](https://betterdiscord.app)**
 
 ## Installing Thorium Browser( Chromium Fork )
 ```
